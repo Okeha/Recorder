@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<head>
+    <title>
+        Group 1 Multimedia System
+    </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <h3 class="header">Recorder App</h3>
+    
+    <div class="contain">
+        <div class="section-1">
+        <button type="button" onclick="recordAudio()" class="btn btn-info">Record Audio</button>
+        <button type="button" onclick="recordVideo()" class="btn btn-info">Record Video</button>
+        <button type="button" onclick="recordScreen()" class="btn btn-info">Record Screen</button>
+        <button type="button" class="btn btn-danger stop" id="stop" disabled>Stop</button>
+        <span><a id="download" style="display: none;"><button type="button" class="btn btn-primary mb-4 save"> Save</button></a></span>
+        </div>
+
+        <div class="section-2">
+        <video autoplay height='700' width="1500" muted></video>
+        </div>
+    </div>
+</body>
+
+<script src="index.js"></script>
+
+</html>

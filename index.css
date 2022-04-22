@@ -1,0 +1,51 @@
+body {
+    padding-top: x;
+    text-align: center;
+    padding: 5px 10px;
+    background-color: whitesmoke;
+
+}
+
+.contain {
+    display: flex;  
+    justify-content: space-between; 
+}
+
+.section-1{
+    flex: 1;
+    padding-top: 50px;
+}
+.section-2{
+    flex: 10;
+    background-color: lightblue;
+    border-radius: 5px;
+    height: 800px;
+}
+
+.header {
+    color: white;
+    padding: 30px;
+    background-color: rgb(27, 139, 167);
+    border-radius: 5px;
+    height: 150px;
+}
+
+button{
+    display: block !important;
+    margin-bottom: 35px;
+    width:150px;
+    height:150px;
+}
+#stop{
+    height: 80px !important;
+    margin-bottom: 0px;
+}
+.save{
+    height: 80px !important;
+    margin-top: 35px;
+    margin-bottom: 0px;
+}
+video{
+    border-radius: 10px;
+    margin-top: 40px;
+}
